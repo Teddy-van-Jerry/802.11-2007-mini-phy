@@ -1,11 +1,11 @@
 % main_OFDM_simulation.m
 % This script simulates the construction and modulation of an OFDM packet
-% following the IEEE 802.11-2017 standard, including packet transmission,
+% following the IEEE 802.11-2007 standard, including packet transmission,
 % channel distortion, packet detection, synchronization, channel estimation,
 % and data decoding.
 %
 % by Wuqiong Zhao <wqzhao@ucsd.edu>
-% https://github.com/Teddy-van-Jerry/802.11-2017-mini-phy
+% https://github.com/Teddy-van-Jerry/802.11-2007-mini-phy
 
 %% Preparations
 addpath('functions');
@@ -52,7 +52,7 @@ title('Magnitude of STF Samples');
 xlabel('Sample Index');
 ylabel('Magnitude');
 if PLT_SAVE
-    saveas(gcf, 'plots/TX_Packet_Magnitude.eps', 'epsc');
+    saveas(gcf, 'plots/STF_Magnitude.eps', 'epsc');
 end
 
 % Plot the power spectral density of the entire OFDM packet (including CP)

@@ -1,5 +1,5 @@
 % dot11_ifft_index_map.m
-% Maps the indices of the IFFT output according to the 802.11-2017 standard.
+% Maps the indices of the IFFT output according to the 802.11-2007 standard.
 %
 % by Wuqiong Zhao <wqzhao@ucsd.edu>
 
