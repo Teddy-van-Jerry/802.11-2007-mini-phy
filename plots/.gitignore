@@ -1,0 +1,4 @@
+# All output figures are excluded from the repository.
+
+*
+!.gitignore
